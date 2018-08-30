@@ -1,0 +1,2 @@
+- wybór iloœci próbek branych pod uwagê przy detekcji triggera slope
+- zwiêkszyæ max bufor próbek

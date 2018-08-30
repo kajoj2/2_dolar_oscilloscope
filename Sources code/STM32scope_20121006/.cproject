@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.1758903934">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1758903934" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="org.coocox.ExternalSettings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="" kind="includePath" name="D:\progs\CoIDE\arm-2011.03-coocox\arm-none-eabi\include"/>
+						<entry flags="" kind="includePath" name="D:\progs\CoIDE\arm-2011.03-coocox\lib\gcc\arm-none-eabi\4.5.2\include"/>
+						<entry flags="" kind="includePath" name="D:\progs\CoIDE\arm-2011.03-coocox\lib\gcc\arm-none-eabi\4.5.2\include-fixed"/>
+						<entry flags="" kind="includePath" name="."/>
+						<entry flags="" kind="includePath" name="cmsis"/>
+						<entry flags="" kind="includePath" name="cmsis_boot"/>
+						<entry flags="" kind="includePath" name="inc"/>
+						<entry flags="" kind="includePath" name="STM32_EVAL"/>
+						<entry flags="" kind="includePath" name="STM32_USB-FS-Device_Driver/inc"/>
+						<entry flags="" kind="includePath" name="STM32F10x_StdPeriph_Driver/inc"/>
+						<entry flags="" kind="macro" name="__GNUC__" value=""/>
+						<entry flags="" kind="macro" name="STM32F10X_MD" value=""/>
+						<entry flags="" kind="macro" name="USE_STDPERIPH_DRIVER" value=""/>
+						<entry flags="" kind="macro" name="__ASSEMBLY__" value=""/>
+						<entry flags="" kind="macro" name="STM32F103C8" value=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+				<pathentry kind="src" path=""/>
+				<pathentry include="D:/progs/CoIDE/arm-2011.03-coocox/arm-none-eabi/include" kind="inc" path="" system="true"/>
+				<pathentry include="D:/progs/CoIDE/arm-2011.03-coocox/lib/gcc/arm-none-eabi/4.5.2/include" kind="inc" path="" system="true"/>
+				<pathentry include="D:/progs/CoIDE/arm-2011.03-coocox/lib/gcc/arm-none-eabi/4.5.2/include-fixed" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope/cmsis" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope/cmsis_boot" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope/inc" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope/STM32_EVAL" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope/STM32_USB-FS-Device_Driver/inc" kind="inc" path="" system="true"/>
+				<pathentry include="D:/Dokumenty/_PROJEKTY/miniscope_v2c/stm32scope/STM32F10x_StdPeriph_Driver/inc" kind="inc" path="" system="true"/>
+				<pathentry kind="mac" name="__GNUC__" path="" value=""/>
+				<pathentry kind="mac" name="STM32F10X_MD" path="" value=""/>
+				<pathentry kind="mac" name="USE_STDPERIPH_DRIVER" path="" value=""/>
+				<pathentry kind="mac" name="__ASSEMBLY__" path="" value=""/>
+				<pathentry kind="mac" name="STM32F103C8" path="" value=""/>
+				<pathentry kind="out" path=""/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+</cproject>

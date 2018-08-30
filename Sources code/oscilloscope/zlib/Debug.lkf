@@ -1,0 +1,13 @@
+-r
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\zlib.lib"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\adler32.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\compress.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\crc32.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\deflate.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\infback.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\inffast.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\inflate.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\inftrees.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\trees.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\uncompr.obj"
+"C:\_PLATAN_\Libra_SDv2\zlib\Debug\zutil.obj"

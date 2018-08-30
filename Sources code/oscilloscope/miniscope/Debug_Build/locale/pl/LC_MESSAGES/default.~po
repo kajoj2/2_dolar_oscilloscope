@@ -1,0 +1,1089 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010 Tomasz Ostrowski
+# This file is distributed under the same license as the miniscope v4 package.
+# FIRST AUTHOR <tomasz dot o dot ostrowski at gmail dot com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miniscope v4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-18 23:02+0100\n"
+"PO-Revision-Date: 2010-12-19 14:11+0100\n"
+"Last-Translator: Tomasz Ostrowski <tomasz dot o dot ostrowski at gmail.com>\n"
+"Language-Team: Tomasz Ostrowski <tomasz dot o dot ostrowski at gmail dot com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+
+#. AboutBox..Caption
+#. frmMain..Menu..miHelp..miAbout..Caption
+#: AboutUnit.dfm:5
+msgid "About"
+msgstr "O programie"
+
+#. AboutBox..lblCodeGuardInfo..Caption
+#. AboutBox..Panel1..lblCodeguard..Caption
+#: AboutUnit.dfm:23
+msgid "CodeGuard"
+msgstr "CodeGuard"
+
+#. AboutBox..Panel1..ProductName..Caption
+#. frmMain..Caption
+#: AboutUnit.dfm:186
+msgid "miniscope v4"
+msgstr "miniscope v4"
+
+#. AboutBox..Panel1..Version..Caption
+#. frmSettings..PageControl..tsScopePlugins..lvScopePlugins......Caption
+#: AboutUnit.dfm:201
+msgid "Version"
+msgstr "Wersja"
+
+#. AboutBox..Panel1..Comments..Caption
+#: AboutUnit.dfm:217
+msgid "Licensed as GPL v2."
+msgstr "Licencja: GPL v2."
+
+#. AboutBox..Panel1..lblVersion..Caption
+#: AboutUnit.dfm:226
+msgid "lblVersion"
+msgstr "lblVersion"
+
+#. AboutBox..Panel1..lblInfo1..Caption
+#: AboutUnit.dfm:233
+msgid "Visit"
+msgstr " "
+
+#. AboutBox..Panel1..lblInfo2..Caption
+#: AboutUnit.dfm:241
+msgid "http://tomeko.net"
+msgstr "http://tomeko.net"
+
+#. AboutBox..Panel1..lblInfo3..Caption
+#: AboutUnit.dfm:257
+msgid "for updates and documentation."
+msgstr " - aktualizacje i dokumentacja"
+
+#. AboutBox..Panel1..lblBuilt..Caption
+#: AboutUnit.dfm:264
+msgid "Built"
+msgstr "Data"
+
+#. AboutBox..Panel1..lblBuildTimestamp..Caption
+#: AboutUnit.dfm:272
+msgid "lblBuildTimestamp"
+msgstr "lblBuildTimestamp"
+
+#. AboutBox..Panel1..lblCodeGuardState..Caption
+#. AboutBox..Panel1..lblDebugState..Caption
+#: AboutUnit.dfm:295
+msgid "NO"
+msgstr "NIE"
+
+#. AboutBox..Panel1..lblDebug..Caption
+#: AboutUnit.dfm:303
+msgid "Debug"
+msgstr "Debug"
+
+#. AboutBox..OKButton..Caption
+#: AboutUnit.dfm:320
+msgid "OK"
+msgstr "OK"
+
+#. frmCalibrateSensitivity..Caption
+#: CalibrateSensitivityUnit.dfm:4
+msgid "Calibrate device sensitivity"
+msgstr "Kalibracja czułości urządzenia"
+
+#. frmCalibrateSensitivity..lblTarget..Caption
+#: CalibrateSensitivityUnit.dfm:24
+msgid "1. Set sentitivity range you want to calibrate in main window"
+msgstr "1. Ustaw w głównym oknie zakres czułości do skalibrowania"
+
+#. frmCalibrateSensitivity..lblVoltage..Caption
+#: CalibrateSensitivityUnit.dfm:31
+msgid "4. Enter REAL voltage at left cursor [V]:"
+msgstr "4. Wpisz RZECZYWISTĄ wartość napięcia odpowiadającą lewemu kursorowi"
+
+#. frmCalibrateSensitivity..lblCapture..Caption
+#: CalibrateSensitivityUnit.dfm:38
+msgid "2. Capture test signal (i.e. square wave with low level = 0V)"
+msgstr "2. Zarejestruj sygnał testowy (np. prostokątny z poziomem niskim = 0V)"
+
+#. frmCalibrateSensitivity..lblCursors..Caption
+#: CalibrateSensitivityUnit.dfm:45
+msgid "3. Set right cursor to REAL 0V level"
+msgstr "3. Ustaw prawy kursor na poziomie odpowiadającym RZECZYWISTYM 0V"
+
+#. frmCalibrateSensitivity..lblCursors2..Caption
+#: CalibrateSensitivityUnit.dfm:407
+msgid "and left cursor to known voltage level (high level of wave)"
+msgstr "i lewy kursor na poziomie znanego napięcia (amplituda sygnału)"
+
+#. frmCalibrateSensitivity..lblCalibrate..Caption
+#: CalibrateSensitivityUnit.dfm:414
+msgid "5. Ready to go!"
+msgstr "5. Gotowe!"
+
+#. frmCalibrateSensitivity..lblOffset..Caption
+#: CalibrateSensitivityUnit.dfm:421
+msgid "Offset [bits]"
+msgstr "Offset [bit]"
+
+#. frmCalibrateSensitivity..lblGain..Caption
+#: CalibrateSensitivityUnit.dfm:428
+msgid "Gain"
+msgstr "Wzmocnienie"
+
+#. frmCalibrateSensitivity..lblNote....Caption
+#: CalibrateSensitivityUnit.dfm:444
+msgid "Note: calibration is assigned to current channel and range, do not switch it"
+msgstr "Uwaga: kalibracja jest przypisywana do aktualnego kanału i zakresu"
+
+#. frmCalibrateSensitivity..btnCalibrate..Caption
+#: CalibrateSensitivityUnit.dfm:458
+msgid "Calculate"
+msgstr "Oblicz"
+
+#. frmCalibrateSensitivity..btnStoreCalibration..Caption
+#: CalibrateSensitivityUnit.dfm:481
+msgid "Store calibration"
+msgstr "Zapisz kalibrację"
+
+#. frmFilterSelector..Caption
+#: FilterSelector.dfm:5
+msgid "Filter chain selector"
+msgstr "Wybór zestawu filtrów"
+
+#. frmFilterSelector..pnlBottom..lblNote..Caption
+#: FilterSelector.dfm:31
+msgid "Note: new filters will be used when"
+msgstr "Uwaga: filtry zostaną użyte po odebraniu"
+
+#. frmFilterSelector..pnlBottom..lblNote2..Caption
+#: FilterSelector.dfm:38
+msgid "new data is captured"
+msgstr "nowych danych"
+
+#. frmFilterSelector..pnlBottom..btnApply..Caption
+#. frmSettings..pnlBottom..pnlBottomRight..btnApply..Caption
+#: FilterSelector.dfm:45
+msgid "Apply"
+msgstr "Zastosuj"
+
+#. frmFilterSelector..pnlBottom..btnCancel..Caption
+#. frmSettings..pnlBottom..pnlBottomRight..btnCancel..Caption
+#: FilterSelector.dfm:54
+msgid "Cancel"
+msgstr "Anuluj"
+
+#. frmFilterSelector..grBoxAvailableFilters..Caption
+#: FilterSelector.dfm:65
+msgid "Available filters"
+msgstr "Dostępne filtry"
+
+#. frmFilterSelector..grboxUsedFilters..Caption
+#: FilterSelector.dfm:94
+msgid "Used filters chain"
+msgstr "Używany zestaw filtrów"
+
+#. frmFilterSelector..grboxUsedFilters..pnlUsedFiltersBottom..btnRemove..Caption
+#. frmSettings..PageControl..tsGraphColors..pnlGraphColorsBottom..btnRemoveGraphTraceColor..Caption
+#: FilterSelector.dfm:109
+msgid "Remove"
+msgstr "Usuń"
+
+#. frmFilterSelector..grboxUsedFilters..pnlUsedFiltersBottom..btnUp..Caption
+#: FilterSelector.dfm:118
+msgid "Up"
+msgstr "Góra"
+
+#. frmFilterSelector..grboxUsedFilters..pnlUsedFiltersBottom..btnDown..Caption
+#: FilterSelector.dfm:127
+msgid "Down"
+msgstr "Dół"
+
+#. frmFilterSelector..btnAdd..Caption
+#: FilterSelector.dfm:157
+msgid "Add ->"
+msgstr "Dodaj ->"
+
+#. frmJsonViewer..lblSensitivity..Caption
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop..lblSensitivity..Caption
+#: JsonViewerUnit.dfm:26
+msgid "Sensitivity"
+msgstr "Czułość"
+
+#. frmJsonViewer..lblSampling..Caption
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblSampling..Caption
+#. frmMs3FrameList..lvFrames......Caption
+#. frmMs3Viewer..lblSampling..Caption
+#: JsonViewerUnit.dfm:34
+#: Ms3ViewerUnit.dfm:30
+msgid "Sampling"
+msgstr "Próbkowanie"
+
+#. frmJsonViewer..lblSensitivityVal..Caption
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop..lblSensitivityVal..Caption
+#: JsonViewerUnit.dfm:43
+msgid "0 V/div"
+msgstr "0 V/div"
+
+#. frmJsonViewer..lblSamplingVal..Caption
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblSamplingVal..Caption
+#: JsonViewerUnit.dfm:53
+msgid "300 kHz"
+msgstr "300 kHz"
+
+#. frmJsonViewer..lblTriggerType..Caption
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblTriggerType..Caption
+#. frmMs3Viewer..lblTriggerType..Caption
+#: JsonViewerUnit.dfm:60
+msgid "Trigger type"
+msgstr "Wyzwalanie"
+
+#. frmJsonViewer..lblCouplingType..Caption
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop..lblCouplingType..Caption
+#. frmMs3Viewer..lblCouplingType..Caption
+#: JsonViewerUnit.dfm:67
+msgid "Coupling"
+msgstr "Sprzężenie"
+
+#. frmJsonViewer..lblTimestamp..Caption
+#. frmMs3FrameList..lvFrames......Caption
+#. frmMs3Viewer..lblTimestamp..Caption
+#. frmNotification..lvEntries......Caption
+#: JsonViewerUnit.dfm:74
+#: NotificationUnit.dfm:33
+msgid "Timestamp"
+msgstr "Data, czas"
+
+#. frmJsonViewer..lblSamplesCount..Caption
+#. frmMs3Viewer..lblSamplesCount..Caption
+#: JsonViewerUnit.dfm:108
+msgid "Samples count"
+msgstr "Próbki"
+
+#. frmJsonViewer..pnlBottom..btnExitViewer..Caption
+#: JsonViewerUnit.dfm:133
+msgid "Exit JSON Viewer"
+msgstr "Powrót"
+
+#. frmJsonViewer..edFilename..Text
+#. frmMs3Viewer..edFilename..Text
+#: JsonViewerUnit.dfm:149
+msgid "< file name >"
+msgstr "< nazwa pliku >"
+
+#. frmLog..Caption
+#: LogUnit.dfm:4
+msgid "Miniscope Log"
+msgstr "Log programu"
+
+#. frmLog..pnlBottom..btnClear..Caption
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..btnRecorderClear..Caption
+#: LogUnit.dfm:46
+msgid "Clear"
+msgstr "Wyczyść"
+
+#. frmLog..pnlBottom..chbAutoScroll..Caption
+#: LogUnit.dfm:55
+msgid "Auto Scroll"
+msgstr "Automatyczne przewijanie"
+
+#. frmLog..pmenuRichEdit..miCopy..Caption
+#: LogUnit.dfm:71
+msgid "&Copy"
+msgstr "Kopiuj"
+
+#. frmMain..CoolBar..ToolBarMouse..pnlZoomInfo..lblZoomX..Caption
+#: Main.dfm:213
+msgid "X: 1.0x"
+msgstr "X: 1.0x"
+
+#. frmMain..CoolBar..ToolBarMouse..pnlZoomInfo..lblZoomY..Caption
+#: Main.dfm:220
+msgid "Y: 1.0x"
+msgstr "Y: 1.0x"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblTriggerLevel..Caption
+#: Main.dfm:280
+msgid "Trigger level"
+msgstr "Poziom wyzwalania"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblBuffer..Caption
+#: Main.dfm:298
+msgid "Buffer"
+msgstr "Bufor"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblInterval..Caption
+#: Main.dfm:305
+msgid "Interval"
+msgstr "Interwał"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblSeconds..Caption
+#: Main.dfm:312
+msgid "s"
+msgstr "s"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblTriggerSource..Caption
+#: Main.dfm:319
+msgid "Trigger source"
+msgstr "Źródło wyzw."
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..btnManualTrigger..Caption
+#: Main.dfm:373
+msgid "Trigger now!"
+msgstr "Wyzwól!"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..ProgressBarFrameRx..Hint
+#: Main.dfm:393
+msgid "Buffer receiving progress"
+msgstr "Postęp wypełniania bufora"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..btnRecorderStart..Caption
+#. frmMain..ActionList..ActionAcquireStart..Caption
+#: Main.dfm:411
+msgid "Start"
+msgstr "Start"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..btnRecorderStop..Caption
+#. frmMain..ActionList..ActionAcquireStop..Caption
+#: Main.dfm:420
+msgid "Stop"
+msgstr "Stop"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..cbTriggerSource..Text
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..cbTriggerSource....Items.Strings
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop....Tabs.Strings
+#: Main.dfm:443
+msgid "A"
+msgstr "A"
+
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..cbTriggerSource....Items.Strings
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop....Tabs.Strings
+#: Main.dfm:447
+msgid "B"
+msgstr "B"
+
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop....Tabs.Strings
+#: Main.dfm:468
+msgid "C"
+msgstr "C"
+
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop....Tabs.Strings
+#: Main.dfm:469
+msgid "D"
+msgstr "D"
+
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop....Tabs.Strings
+#: Main.dfm:470
+msgid "E"
+msgstr "E"
+
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop....Tabs.Strings
+#: Main.dfm:471
+msgid "F"
+msgstr "F"
+
+#. frmMain..Menu..File1..Caption
+#. frmMain..ActionList..FileExit1..Category
+#: Main.dfm:537
+msgid "File"
+msgstr "Plik"
+
+#. frmMain..Menu..E1..Caption
+#: Main.dfm:569
+msgid "Edit"
+msgstr "Edycja"
+
+#. frmMain..Menu..miView..Caption
+#: Main.dfm:576
+msgid "View"
+msgstr "Widok"
+
+#. frmMain..Menu..miView..miViewLog..Caption
+#: Main.dfm:580
+msgid "Log"
+msgstr "Log"
+
+#. frmMain..Menu..miSettings..Caption
+#. frmSettings..Caption
+#: Main.dfm:585
+msgid "Settings"
+msgstr "Ustawienia"
+
+#. frmMain..Menu..miSettings..miDeviceSettings..Caption
+#: Main.dfm:591
+msgid "Device Settings"
+msgstr "Ustawienia urządzenia"
+
+#. frmMain..Menu..miTools..Caption
+#: Main.dfm:596
+msgid "Tools"
+msgstr "Narzędzia"
+
+#. frmMain..Menu..miTools..miStatistics..Caption
+#. frmStatistics..Caption
+#: Main.dfm:599
+msgid "Statistics"
+msgstr "Statystyka"
+
+#. frmMain..Menu..miHelp..Caption
+#: Main.dfm:613
+msgid "Help"
+msgstr "Pomoc"
+
+#. frmMain..ActionList..ActionChangeMouseModeCursor..Caption
+#. frmMain..ActionList..ActionChangeMouseModeCursor..Hint
+#: Main.dfm:1297
+msgid "Cursors"
+msgstr "Kursory"
+
+#. frmMain..ActionList..ActionChangeMouseModeOffset..Caption
+#. frmMain..ActionList..ActionChangeMouseModeOffset..Hint
+#: Main.dfm:1303
+msgid "Move"
+msgstr "Przesuń"
+
+#. frmMain..ActionList..ActionChangeMouseModeZoom..Caption
+#. frmMain..ActionList..ActionChangeMouseModeZoom..Hint
+#: Main.dfm:1309
+msgid "Zoom"
+msgstr "Powiększ"
+
+#. frmMain..ActionList..ActionChangeMouseModeZoomX..Caption
+#. frmMain..ActionList..ActionChangeMouseModeZoomX..Hint
+#: Main.dfm:1315
+msgid "Zoom X axis"
+msgstr "Powiększ w osi X"
+
+#. frmMain..ActionList..ActionChangeMouseModeZoomY..Caption
+#. frmMain..ActionList..ActionChangeMouseModeZoomY..Hint
+#: Main.dfm:1321
+msgid "Zoom Y axis"
+msgstr "Powiększ w osi Y"
+
+#. frmMain..ActionList..ActionZoomClear..Caption
+#. frmMain..ActionList..ActionZoomClear..Hint
+#: Main.dfm:1327
+msgid "Clear zoom & position"
+msgstr "Wyczyść powiększenie i przesunięcie"
+
+#. frmMain..ActionList..ActionModeScope..Caption
+#. frmMain..ActionList..ActionModeScope..Hint
+#. frmSettings..PageControl..tsGraph..lblOscilloscope..Caption
+#: Main.dfm:1333
+msgid "Oscilloscope"
+msgstr "Oscyloskop"
+
+#. frmMain..ActionList..ActionModeSpectrum..Caption
+#. frmMain..ActionList..ActionModeSpectrum..Hint
+#: Main.dfm:1339
+msgid "Spectrum analyzer"
+msgstr "Analizator widma"
+
+#. frmMain..ActionList..ActionModeRecorder..Caption
+#. frmMain..ActionList..ActionModeRecorder..Hint
+#. frmSettings..PageControl..tsGraph..lblRecorder..Caption
+#: Main.dfm:1345
+msgid "Recorder"
+msgstr "Rejestracja długookresowa"
+
+#. frmMain..ActionList..ActionCopyPlotClipbrd..Caption
+#: Main.dfm:1361
+msgid "Copy plot image to clipboard"
+msgstr "Kopiuj obraz wykresu do schowka"
+
+#. frmMain..ActionList..ActionShowCommonSettings..Caption
+#: Main.dfm:1365
+msgid "Common Settings"
+msgstr "Ustawienia ogólne"
+
+#. frmMain..ActionList..ActionExportPlotBitmap..Caption
+#: Main.dfm:1369
+msgid "Export Plot Bitmap To File"
+msgstr "Eksportuj wykres jako bitmapę do pliku"
+
+#. frmMain..ActionList..ActionExportData..Caption
+#: Main.dfm:1373
+msgid "Export current data to JSON or CSV"
+msgstr "Eksportuj do formatu JSON lub CSV"
+
+#. frmMain..ActionList..ActionCalibrateSensitivity..Caption
+#: Main.dfm:1377
+msgid "Calibrate Sensitivity"
+msgstr "Kalibracja czułości"
+
+#. frmMain..ActionList..ActionAutoFitY..Caption
+#: Main.dfm:1381
+msgid "Fit vertical"
+msgstr "Dopasuj w pionie"
+
+#. frmMain..ActionList..ActionAutoFitY..Hint
+#: Main.dfm:1382
+msgid "Fit plot vertically"
+msgstr "Dopasuj wykres w pionie"
+
+#. frmMain..ActionList..ActionAutoFitX..Caption
+#: Main.dfm:1387
+msgid "Fit horizontal"
+msgstr "Dopasuj w poziomie"
+
+#. frmMain..ActionList..ActionAutoFitX..Hint
+#: Main.dfm:1388
+msgid "Fit plot horizontally"
+msgstr "Dopasuj wykres w poziomie"
+
+#. frmMain..ActionList..ActionLoadJsonFile..Caption
+#: Main.dfm:1393
+msgid "Load JSON file"
+msgstr "Otwórz plik JSON"
+
+#. frmMain..ActionList..FileExit1..Caption
+#: Main.dfm:1398
+msgid "E&xit"
+msgstr "Wyjście"
+
+#. frmMain..ActionList..FileExit1..Hint
+#: Main.dfm:1399
+msgid "Exit|Quits the application"
+msgstr "Wyjście|Koniec pracy programu"
+
+#. frmMain..ActionList..ActionShowDataFilterChain..Caption
+#: Main.dfm:1403
+msgid "Data filter chain"
+msgstr "Filtracja danych"
+
+#. frmMain..ActionList..ActionMs3Record..Caption
+#: Main.dfm:1408
+msgid "Record data to MS3 file"
+msgstr "Rejestracja danych do pliku MS3"
+
+#. frmMain..ActionList..ActionMs3Load..Caption
+#: Main.dfm:1412
+msgid "Load MS3 file"
+msgstr "Załaduj plik MS3"
+
+#. frmMain..ActionList..ActionMs3FileRepair..Caption
+#. frmMs3FileRepair..Caption
+#: Main.dfm:1416
+msgid "MS3 file repair"
+msgstr "Naprawa pliku MS3"
+
+#. frmMs3FileRepair..lblInfo..Caption
+#: Ms3FileRepairUnit.dfm:25
+msgid "New file will be created. Make sure you have enough HDD space."
+msgstr "Zostanie utworzony nowy plik. Upewnij się, że ilość miejsca na dysku jest wystarczająca."
+
+#. frmMs3FileRepair..lblErrorType..Caption
+#: Ms3FileRepairUnit.dfm:32
+msgid "Error type:"
+msgstr "Typ błędu:"
+
+#. frmMs3FileRepair..pnlBottom..btnClose..Caption
+#: Ms3FileRepairUnit.dfm:54
+msgid "Close"
+msgstr "Zamknij"
+
+#. frmMs3FileRepair..btnCreateFixedFile..Caption
+#: Ms3FileRepairUnit.dfm:71
+msgid "Create fixed file"
+msgstr "Utwórz naprawiony plik"
+
+#. frmMs3FrameList..Caption
+#: Ms3FrameListUnit.dfm:4
+msgid "Data frame list"
+msgstr "Lista ramek z danymi"
+
+#. frmMs3FrameList..lvFrames......Caption
+#: Ms3FrameListUnit.dfm:24
+msgid "ID"
+msgstr "ID"
+
+#. frmMs3FrameList..lvFrames......Caption
+#: Ms3FrameListUnit.dfm:32
+msgid "Channels/Coupling"
+msgstr "Kanały/Sprzężenie"
+
+#. frmMs3FrameList..lvFrames......Caption
+#: Ms3FrameListUnit.dfm:40
+msgid "Samples"
+msgstr "Próbki"
+
+#. frmMs3FrameList..lvFrames......Caption
+#: Ms3FrameListUnit.dfm:44
+msgid "Trigger"
+msgstr "Wyzwalanie"
+
+#. frmMs3Viewer..lblFrame..Caption
+#: Ms3ViewerUnit.dfm:110
+msgid "Frame"
+msgstr "Ramka"
+
+#. frmMs3Viewer..pnlBottom..btnExitViewer..Caption
+#: Ms3ViewerUnit.dfm:135
+msgid "Exit MS3 Viewer"
+msgstr "Powrót"
+
+#. frmMs3Viewer..btnPrevFrame..Hint
+#: Ms3ViewerUnit.dfm:159
+msgid "Previous frame"
+msgstr "Poprzednia ramka"
+
+#. frmMs3Viewer..btnNextFrame..Hint
+#: Ms3ViewerUnit.dfm:169
+msgid "Next frame"
+msgstr "Następna ramka"
+
+#. frmMs3Viewer..btnFrameList..Hint
+#: Ms3ViewerUnit.dfm:179
+msgid "List of data frames"
+msgstr "Lista ramek danych"
+
+#. frmNotification..Caption
+#: NotificationUnit.dfm:5
+msgid "Miniscope notifications"
+msgstr "Powiadomienia programu"
+
+#. frmNotification..lvEntries......Caption
+#: NotificationUnit.dfm:29
+msgid "Icon"
+msgstr "Icon"
+
+#. frmNotification..lvEntries......Caption
+#: NotificationUnit.dfm:38
+msgid "Messages"
+msgstr "Messages"
+
+#. frmSettings..PageControl..tsScopePlugins..Caption
+#: SettingsUnit.dfm:29
+msgid "Scope Plugins"
+msgstr "Pluginy"
+
+#. frmSettings..PageControl..tsScopePlugins..lvScopePlugins......Caption
+#: SettingsUnit.dfm:42
+msgid "DLL Name"
+msgstr "Nazwa biblioteki dll"
+
+#. frmSettings..PageControl..tsScopePlugins..pnlScopePluginsHelp..lblDllInfo2....Caption
+#: SettingsUnit.dfm:87
+msgid "= currently used input device dll, select list item and apply to change"
+msgstr "= aktualnie używana biblioteka dll, zaznacz pozycję i zastosuj aby zmienić"
+
+#. frmSettings..PageControl..tsScopePlugins..pnlScopePluginsHelp..lblDllInfo3....Caption
+#: SettingsUnit.dfm:96
+msgid "Put plugins in application \\device\\ subdirectory to make them available."
+msgstr "Umieść pluginy w podkatalogu \\device\\ aby dać do nich dostęp programowi."
+
+#. frmSettings..PageControl..tsFFT..Caption
+#: SettingsUnit.dfm:101
+msgid "FFT"
+msgstr "FFT"
+
+#. frmSettings..PageControl..tsFFT..lblFftSamplesLimit..Caption
+#: SettingsUnit.dfm:112
+msgid "Maximum number of samples used"
+msgstr "Maksymalna liczba używanych próbek"
+
+#. frmSettings..PageControl..tsFFT..lblFftWindowType..Caption
+#: SettingsUnit.dfm:119
+msgid "Window function type"
+msgstr "Typ użytego okna"
+
+#. frmSettings..PageControl..tsGraph..Caption
+#: SettingsUnit.dfm:164
+msgid "Graph"
+msgstr "Wykres"
+
+#. frmSettings..PageControl..tsGraph..lblRefreshingFreq..Caption
+#: SettingsUnit.dfm:175
+msgid "Graph refreshing frequency [Hz]"
+msgstr "Częstotliwość odświeżania [Hz]"
+
+#. frmSettings..PageControl..tsGraph..lblVisibility..Caption
+#: SettingsUnit.dfm:182
+msgid "Visibility:"
+msgstr "Pokazywane elementy:"
+
+#. frmSettings..PageControl..tsGraph..lblSpectrum..Caption
+#: SettingsUnit.dfm:196
+msgid "Spectrum"
+msgstr "FFT"
+
+#. frmSettings..PageControl..tsGraph..lblPlotToolbarTransparency..Caption
+#: SettingsUnit.dfm:210
+msgid "Plot toolbar transparency (if supported by OS):"
+msgstr "Przeźroczystość okna narzędzi wykresu:"
+
+#. frmSettings..PageControl..tsGraph..lblTransparencyMax..Caption
+#: SettingsUnit.dfm:217
+msgid "MAX"
+msgstr "MAX"
+
+#. frmSettings..PageControl..tsGraph..lblTransparencyNone..Caption
+#: SettingsUnit.dfm:224
+msgid "NONE"
+msgstr "BRAK"
+
+#. frmSettings..PageControl..tsGraph..chbOscilloscopeGridX..Caption
+#. frmSettings..PageControl..tsGraph..chbSpectrumGridX..Caption
+#. frmSettings..PageControl..tsGraph..chbRecorderGridX..Caption
+#: SettingsUnit.dfm:252
+msgid "Grid X"
+msgstr "Siatka X"
+
+#. frmSettings..PageControl..tsGraph..chbOscilloscopeGridY..Caption
+#. frmSettings..PageControl..tsGraph..chbSpectrumGridY..Caption
+#. frmSettings..PageControl..tsGraph..chbRecorderGridY..Caption
+#: SettingsUnit.dfm:261
+msgid "Grid Y"
+msgstr "Siatka Y"
+
+#. frmSettings..PageControl..tsGraph..chbOscilloscopeGridLabelsX..Caption
+#. frmSettings..PageControl..tsGraph..chbSpectrumGridLabelsX..Caption
+#. frmSettings..PageControl..tsGraph..chbRecorderGridLabelsX..Caption
+#: SettingsUnit.dfm:270
+msgid "Grid labels X"
+msgstr "Etykiety siatki X"
+
+#. frmSettings..PageControl..tsGraph..chbOscilloscopeGridLabelsY..Caption
+#. frmSettings..PageControl..tsGraph..chbSpectrumGridLabelsY..Caption
+#. frmSettings..PageControl..tsGraph..chbRecorderGridLabelsY..Caption
+#: SettingsUnit.dfm:344
+msgid "Grid labels Y"
+msgstr "Etykiety siatki Y"
+
+#. frmSettings..PageControl..tsGraphColors..Caption
+#: SettingsUnit.dfm:368
+msgid "Graph Colors"
+msgstr "Kolory wykresu"
+
+#. frmSettings..PageControl..tsGraphColors..pnlGraphColorsBottom..btnAddGraphTraceColor..Caption
+#: SettingsUnit.dfm:387
+msgid "Add"
+msgstr "Dodaj"
+
+#. frmSettings..PageControl..tsGraphColors..pnlGraphColorsBottom..btnChangeGraphTraceColor..Caption
+#: SettingsUnit.dfm:405
+msgid "Change"
+msgstr "Zmień"
+
+#. frmSettings..PageControl..tsGraphColors..pnlGraphColorsBottom..btnDefaultSetGraphTraceColor..Caption
+#: SettingsUnit.dfm:414
+msgid "Default set"
+msgstr "Domyślny zestaw"
+
+#. frmSettings..PageControl..tsGraphColors..lvGraphTraceColors......Caption
+#: SettingsUnit.dfm:427
+msgid "Channel"
+msgstr "Kanał"
+
+#. frmSettings..PageControl..tsGraphColors..lvGraphTraceColors......Caption
+#: SettingsUnit.dfm:431
+msgid "User specified color"
+msgstr "Wybrany kolor"
+
+#. frmSettings..PageControl..tsOther..Caption
+#: SettingsUnit.dfm:444
+msgid "Other"
+msgstr "Inne"
+
+#. frmSettings..PageControl..tsOther..lblUiCapacity..Caption
+#: SettingsUnit.dfm:455
+msgid "Visible (buffered) log lines:"
+msgstr "Limit widzianych linii logu:"
+
+#. frmSettings..PageControl..tsOther..lblMs3RecorderFileSizeLimit..Caption
+#: SettingsUnit.dfm:462
+msgid "Ms3 recorder file size limit [kB, 1000kB -> 250kS]:"
+msgstr "Limit rozm. zapisywanego pliku ms3 [kB, 1000kB -> 250kS]:"
+
+#. frmSettings..PageControl..tsOther..chbAlwaysOnTop..Caption
+#: SettingsUnit.dfm:469
+msgid "Window always on top"
+msgstr "Okno zawsze na wierzchu"
+
+#. frmStatistics..lblMin..Caption
+#: StatisticsUnit.dfm:26
+msgid "Vmin"
+msgstr "Vmin"
+
+#. frmStatistics..lblMax..Caption
+#: StatisticsUnit.dfm:33
+msgid "Vmax"
+msgstr "Vmax"
+
+#. frmStatistics..lblPp..Caption
+#: StatisticsUnit.dfm:40
+msgid "Vpp"
+msgstr "Vpp"
+
+#. frmStatistics..lblAvg..Caption
+#: StatisticsUnit.dfm:47
+msgid "Vavg"
+msgstr "Vavg"
+
+#. frmStatistics..lblFreq..Caption
+#: StatisticsUnit.dfm:82
+msgid "Freq"
+msgstr "Freq"
+
+#. frmStatistics..lblRms..Caption
+#: StatisticsUnit.dfm:96
+msgid "RMS"
+msgstr "RMS"
+
+#. frmWait..Label1..Caption
+#: WaitUnit.dfm:36
+msgid "Loading input device dll, please wait..."
+msgstr "Ładowanie biblioteki dll urządzenia..."
+
+#. Programmer's name: HANDCUR CURSOR
+#: cursors.rc:1
+msgid "resourcesCursorHand.cur"
+msgstr "resourcesCursorHand.cur"
+
+#. Programmer's name: ZOOMCUR CURSOR
+#: cursors.rc:2
+msgid "resourcesCursorZoom.cur"
+msgstr "resourcesCursorZoom.cur"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\AboutUnit.cpp:20
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\AboutUnit.cpp:26
+msgid "YES"
+msgstr "TAK"
+
+msgid "Incorrect entered value of voltage at left cursor"
+msgstr "Błędna wartość napięcia odpowiadającego pozycji lewego kursora"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\CalibrateSensitivityUnit.cpp:38
+msgid "Calibration calculation failed"
+msgstr "Błąd przy obliczaniu współczynników kalibracji"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\CalibrateSensitivityUnit.cpp:60
+msgid "Incorrect offset value"
+msgstr "Nieprawidłowa wartość offsetu"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\CalibrateSensitivityUnit.cpp:65
+msgid "Gain value incorrect or out of range"
+msgstr "Wartość współczynnika kalibracji wzmocnienia poza dopuszczalnym zakresem"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\CalibrateSensitivityUnit.cpp:71
+msgid "Calibration storing failed"
+msgstr "Nieudany zapis kalibracji"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\device\MiniscopeDeviceInterface.cpp:208
+msgid "Not connected"
+msgstr "Brak połączenia"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowBlackmanHarris.cpp:14
+msgid "Blackman-Harris"
+msgstr "Blackmana-Harrisa"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowBlackmanHarris.cpp:15
+msgid "Best in spectral leakage category, poor frequency resolution"
+msgstr "Najmniejszy wyciek widma, słaba rozdzielczość częstotliwości"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowFlatTop.cpp:14
+msgid "Flat top"
+msgstr "Flat top"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowFlatTop.cpp:15
+msgid "Best in ampliture accuracy, poor frequency resolution. Use for sinusoidal signals."
+msgstr "Najlepsza dokładność odtwarzania amplitudy, słaba rozdzielczość częstotliwościowa. Wskazane do sygnałów sinusoidalnych."
+
+msgid "Hamming"
+msgstr "Hamminga"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowHamming.cpp:15
+msgid "Preferred for closely spaced sine waves (next to rectangular window)."
+msgstr "Zalecane (obok okna prostokątnego) do sygnałów będących złożeniem fal sinusoidalnych o zbliżonych do siebie częstotliwościach."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowHanning.cpp:14
+msgid "Hanning"
+msgstr "Hanninga"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowHanning.cpp:15
+msgid "Prefered for unknown content, sine wave and combination of sine waves."
+msgstr "Zalecane do analizy sygnałów o nieznanym charakterze, sygnału sinusoidalnego lub kombinacji sygnałów sinusoidalnych."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowRectangular.cpp:13
+msgid "Rectangular"
+msgstr "Prostokątne"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\FFT\windows\FFTWindowRectangular.cpp:14
+msgid "Rectangular window (or no window) is preferred for broadband random (white noise), transient or synchrounously samples signals. Best frequency resolution, worst spectrum leakage."
+msgstr "Okno prostokątne (= brak okna) jest zalecane do analizy losowych sygnałów szerokopasmowych (szum biały), stanów przejściowych lub sygnałów próbkowanych synchronicznie. Najlepsza rozdzielczość częstotliwości, największy wyciek widma."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\filter\filters\DataFilterAbs.cpp:14
+msgid "Absolute value of signal"
+msgstr "Bezwzględna wartość sygnału"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\filter\filters\DataFilterInvert.cpp:14
+msgid "Inverted polarity of signal"
+msgstr "Zanegowana wartość sygnału"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\filter\filters\DataFilterSquare.cpp:14
+msgid "Signal value square"
+msgstr "Kwadrat wartości sygnału"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:643
+msgid "MS3 file size reached (check settings), recording stopped"
+msgstr "Nagrywanie zatrzymane - limit pliku MS3 określony w ustawieniach został osiągnięty"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:919
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1764
+msgid "Failed to close MS3 recorder/player."
+msgstr "Nieudane zatrzymanie nagrywania MS3."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:972
+msgid "Failed to load device dll."
+msgstr "Błąd ładowania biblioteki dll urządzenia."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1044
+msgid "Connecting to input device..."
+msgstr "Łączenie z urządzeniem..."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1053
+msgid "Failed connecting to device."
+msgstr "Błąd połączenia z urządzeniem."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1169
+msgid ""
+"No input device dll is selected.\n"
+"It seems like application is running for ther first time\n"
+"or configuration has been removed.\n"
+"Selecting device library is REQUIRED."
+msgstr ""
+"Nie został wybrany żaden plugin urządzenia wejściowego.\n"
+"Aplikacja jest uruchomiona po raz pierwszy\n"
+"lub plik konfiguracyjny został usunięty.\n"
+"Wskazanie biblioteki dll urządzenia jest wymagane."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1173
+msgid "No input device plugin selected"
+msgstr "Nie został wybrany żaden plugin urządzenia wejściowego"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1285
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1827
+msgid "Recorder interval outside allowed range!"
+msgstr "Interwał rejestratora poza dozwolonym zakresem!"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1339
+msgid "Bitmap (*.bmp)|*.bmp"
+msgstr "Bitmapa (*.bmp)|*.bmp"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1436
+msgid "JSON files (*.json)|*.json|CSV files (*.csv)|*.csv"
+msgstr "Pliki JSON (*.json)|*.json|Pliki CSV (*.csv)|*.csv"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1459
+msgid "Failed saving file"
+msgstr "Nie udało się zapisać pliku"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1519
+msgid ""
+"No input device dll is selected.\n"
+"Selecting input plugin is REQUIRED.\n"
+"Note: device plugins should be placed in \\device subdirectory of application."
+msgstr ""
+"Nie została wybrana żadna biblioteka dll urządzenia wejściowego.\n"
+"Wskazanie biblioteki dll jest wymaga.\n"
+"Uwaga: pluginy powinny być umieszczane w podkatalogu \\device programu."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1522
+msgid "Execution aborted"
+msgstr "Wykonywanie przerwane"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1622
+msgid "JSON files (*.json)|*.json|All files (*.*)|*.*"
+msgstr "Pliki JSON (*.json)|*.json|Wszystkie pliki (*.*)|*.*"
+
+msgid ""
+"\n"
+"Error code: "
+msgstr ""
+"\n"
+"Typ błędu:"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1729
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:98
+msgid "MS3 files (*.ms3)|*.ms3"
+msgstr "Pliki MS3 (*.ms3)|*.ms3"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1739
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:105
+msgid "File already exists, file will be overwritten."
+msgstr "Plik już istnieje, zostanie nadpisany."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1740
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:106
+msgid "Are you sure you want to continue?"
+msgstr "Czy na pewno kontynuować?"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1750
+msgid "Failed to open MS3 file for writing"
+msgstr "Nie udało się otworzyć pliku MS3 do zapisu"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1775
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Main.cpp:1808
+msgid "MS3 files (*.ms3)|*.ms3|All files (*.*)|*.*"
+msgstr "Pliki MS3 (*.ms3)|*.ms3|Wszystkie pliki (*.*)|*.*"
+
+msgid "Error loading MS3 file"
+msgstr "Błąd ładowania pliku MS3"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:29
+msgid "Fixed file was created"
+msgstr "Utworzono naprawiony plik"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:32
+msgid "Error occured during creting fixed file"
+msgstr "Wystąpił błąd podczas tworzenia naprawionego pliku"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:35
+msgid "Fixed file not created - user abort"
+msgstr "Naprawiony plik nie został utworzony - rezygnacja użytkownika"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:38
+msgid "File is not damaged - nothing to do"
+msgstr "Plik nie jest uszkodzony - brak potrzeby naprawy"
+
+msgid "Can not fix file"
+msgstr "Nie można naprawić pliku"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:45
+#, c-format
+msgid "Error %d when trying to fix file. No detailed description."
+msgstr "Bład %d przy próbie naprawy pliku. Brak szczegółowego opisu błędu."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:70
+msgid "Missing file index and/or footer"
+msgstr "Brak indeksu/footera pliku"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3FileRepairUnit.cpp:96
+msgid "Select name of fixed file to create"
+msgstr "Wskaż lokalizację naprawionego pliku który ma zostać utworzony"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3ViewerUnit.cpp:150
+#, c-format
+msgid "%d...%d of %d"
+msgstr "%d...%d z %d"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\Ms3ViewerUnit.cpp:155
+#, c-format
+msgid "%d of %d"
+msgstr "%d z %d"
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\SettingsUnit.cpp:146
+msgid "MS3 recorder file size outside range (5120...4096000kB)."
+msgstr "Limit rozmiaru nagrywanego pliku MS3 poza dopuszczalnym zakresem (5120...4096000kB)."
+
+# D:\Dokumenty\_PROJEKTY\miniscope_v4\miniscope\StatisticsUnit.cpp:27
+#, c-format
+msgid "Ch. %s stats"
+msgstr "Stat. kan. %s"
+

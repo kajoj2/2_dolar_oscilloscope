@@ -1,0 +1,604 @@
+object frmSettings: TfrmSettings
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Settings'
+  ClientHeight = 340
+  ClientWidth = 601
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PageControl: TPageControl
+    Left = 0
+    Top = 0
+    Width = 601
+    Height = 299
+    ActivePage = tsHotkeys
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 536
+    object tsScopePlugins: TTabSheet
+      Caption = 'Scope Plugins'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 512
+      ExplicitHeight = 0
+      object lvScopePlugins: TListView
+        Left = 0
+        Top = 0
+        Width = 528
+        Height = 196
+        Align = alClient
+        Columns = <
+          item
+            Caption = 'DLL Name'
+            Width = 150
+          end
+          item
+            AutoSize = True
+            Caption = 'Version'
+          end>
+        OwnerData = True
+        ReadOnly = True
+        RowSelect = True
+        ParentShowHint = False
+        ShowHint = False
+        SmallImages = imglDllList
+        TabOrder = 0
+        ViewStyle = vsReport
+        OnData = lvScopePluginsData
+        ExplicitWidth = 512
+      end
+      object pnlScopePluginsHelp: TPanel
+        Left = 0
+        Top = 196
+        Width = 528
+        Height = 75
+        Align = alBottom
+        BevelOuter = bvNone
+        TabOrder = 1
+        ExplicitWidth = 512
+        object imgSelected: TImage
+          Left = 3
+          Top = 5
+          Width = 22
+          Height = 17
+          Picture.Data = {
+            07544269746D61707E000000424D7E000000000000003E000000280000001000
+            0000100000000100010000000000400000000000000000000000020000000000
+            000000000000FFFFFF00FEFF0000FE7F0000FEBF0000FEDF0000FEEF0000FEF7
+            000000FB00007FFD00007FFD000000FB0000FEF70000FEEF0000FEDF0000FEBF
+            0000FE7F0000FEFF0000}
+          Transparent = True
+        end
+        object lblDllInfo2: TLabel
+          Left = 31
+          Top = 6
+          Width = 329
+          Height = 13
+          Caption = 
+            '= currently used input device dll, select list item and apply to' +
+            ' change'
+        end
+        object lblDllInfo3: TLabel
+          Left = 3
+          Top = 25
+          Width = 339
+          Height = 13
+          Caption = 
+            'Put plugins in application \device\ subdirectory to make them av' +
+            'ailable.'
+        end
+        object btnRefreshDllList: TButton
+          Left = 253
+          Top = 44
+          Width = 156
+          Height = 25
+          Caption = 'Refresh dll list'
+          TabOrder = 0
+          OnClick = btnRefreshDllListClick
+        end
+      end
+    end
+    object tsFFT: TTabSheet
+      Caption = 'FFT'
+      ImageIndex = 3
+      ExplicitWidth = 578
+      object lblFftSamplesLimit: TLabel
+        Left = 16
+        Top = 22
+        Width = 163
+        Height = 13
+        Caption = 'Maximum number of samples used'
+      end
+      object lblFftWindowType: TLabel
+        Left = 16
+        Top = 54
+        Width = 105
+        Height = 13
+        Caption = 'Window function type'
+      end
+      object cbFftSamplesLimit: TComboBox
+        Left = 204
+        Top = 19
+        Width = 124
+        Height = 21
+        Style = csDropDownList
+        ItemHeight = 13
+        ItemIndex = 3
+        TabOrder = 0
+        Text = '4096'
+        OnChange = cbFftSamplesLimitChange
+        Items.Strings = (
+          '512'
+          '1024'
+          '2048'
+          '4096'
+          '8192'
+          '16384'
+          '32768'
+          '65536'
+          '131072')
+      end
+      object cbFftWindowType: TComboBox
+        Left = 204
+        Top = 51
+        Width = 124
+        Height = 21
+        Style = csDropDownList
+        ItemHeight = 13
+        TabOrder = 1
+        OnChange = cbFftWindowTypeChange
+      end
+      object memoFftWindowDescription: TMemo
+        Left = 16
+        Top = 78
+        Width = 312
+        Height = 81
+        Color = clBtnFace
+        ReadOnly = True
+        TabOrder = 2
+      end
+    end
+    object tsGraph: TTabSheet
+      Caption = 'Graph'
+      ImageIndex = 2
+      ExplicitWidth = 578
+      object lblRefreshingFreq: TLabel
+        Left = 16
+        Top = 22
+        Width = 156
+        Height = 13
+        Caption = 'Graph refreshing frequency [Hz]'
+      end
+      object lblPlotToolbarTransparency: TLabel
+        Left = 16
+        Top = 57
+        Width = 227
+        Height = 13
+        Caption = 'Plot toolbar transparency (if supported by OS):'
+      end
+      object lblTransparencyMax: TLabel
+        Left = 379
+        Top = 57
+        Width = 21
+        Height = 13
+        Caption = 'MAX'
+      end
+      object lblTransparencyNone: TLabel
+        Left = 253
+        Top = 57
+        Width = 28
+        Height = 13
+        Caption = 'NONE'
+      end
+      object lblPlotLineWidth: TLabel
+        Left = 16
+        Top = 152
+        Width = 66
+        Height = 13
+        Caption = 'Plot line width'
+      end
+      object cbGraphRefreshingFreq: TComboBox
+        Left = 205
+        Top = 19
+        Width = 108
+        Height = 21
+        Style = csDropDownList
+        ItemHeight = 13
+        ItemIndex = 4
+        TabOrder = 0
+        Text = '20'
+        OnChange = cbGraphRefreshingFreqChange
+        Items.Strings = (
+          '1'
+          '2'
+          '5'
+          '10'
+          '20'
+          '30'
+          '40'
+          '50')
+      end
+      object tbarPlotToolbarTransparency: TTrackBar
+        Left = 280
+        Top = 44
+        Width = 97
+        Height = 45
+        Max = 225
+        Frequency = 15
+        TabOrder = 1
+        TickMarks = tmBoth
+        OnChange = tbarPlotToolbarTransparencyChange
+      end
+      object chbSmoothTraceMoving: TCheckBox
+        Left = 16
+        Top = 95
+        Width = 384
+        Height = 17
+        Caption = 'Smooth trace moving (may be slow with large data collections)'
+        TabOrder = 2
+        OnClick = chbAlwaysOnTopClick
+      end
+      object chbZoomKeepRound: TCheckBox
+        Left = 16
+        Top = 118
+        Width = 384
+        Height = 17
+        Caption = 
+          'Keep 1-2-5 units/div sequence when switching time base and sensi' +
+          'tivity'
+        TabOrder = 3
+        OnClick = chbAlwaysOnTopClick
+      end
+      object edGraphPlotLineWidth: TEdit
+        Left = 208
+        Top = 149
+        Width = 47
+        Height = 21
+        TabOrder = 4
+      end
+    end
+    object tsGraphColors: TTabSheet
+      Caption = 'Graph Colors'
+      ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 512
+      ExplicitHeight = 0
+      object pnlGraphColorsBottom: TPanel
+        Left = 0
+        Top = 230
+        Width = 528
+        Height = 41
+        Align = alBottom
+        BevelOuter = bvNone
+        TabOrder = 0
+        ExplicitWidth = 512
+        object btnAddGraphTraceColor: TButton
+          Left = 16
+          Top = 9
+          Width = 75
+          Height = 25
+          Caption = 'Add'
+          TabOrder = 0
+          OnClick = btnAddGraphTraceColorClick
+        end
+        object btnRemoveGraphTraceColor: TButton
+          Left = 206
+          Top = 9
+          Width = 75
+          Height = 25
+          Caption = 'Remove'
+          TabOrder = 1
+          OnClick = btnRemoveGraphTraceColorClick
+        end
+        object btnChangeGraphTraceColor: TButton
+          Left = 111
+          Top = 9
+          Width = 75
+          Height = 25
+          Caption = 'Change'
+          TabOrder = 2
+          OnClick = btnChangeGraphTraceColorClick
+        end
+        object btnDefaultSetGraphTraceColor: TButton
+          Left = 304
+          Top = 9
+          Width = 105
+          Height = 25
+          Caption = 'Default set'
+          TabOrder = 3
+          OnClick = btnDefaultSetGraphTraceColorClick
+        end
+      end
+      object lvGraphTraceColors: TListView
+        Left = 0
+        Top = 0
+        Width = 528
+        Height = 230
+        Align = alClient
+        Columns = <
+          item
+            Caption = 'Channel'
+            Width = 70
+          end
+          item
+            Caption = 'User specified color'
+            Width = 150
+          end>
+        OwnerData = True
+        OwnerDraw = True
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 1
+        ViewStyle = vsReport
+        OnDrawItem = lvGraphTraceColorsDrawItem
+        ExplicitWidth = 512
+      end
+    end
+    object tsHotkeys: TTabSheet
+      Caption = 'Hotkeys'
+      ImageIndex = 5
+      ExplicitWidth = 528
+    end
+    object tsOther: TTabSheet
+      Caption = 'Other'
+      ImageIndex = 1
+      ExplicitWidth = 578
+      object lblUiCapacity: TLabel
+        Left = 16
+        Top = 22
+        Width = 127
+        Height = 13
+        Caption = 'Visible (buffered) log lines:'
+      end
+      object lblMs3RecorderFileSizeLimit: TLabel
+        Left = 16
+        Top = 86
+        Width = 237
+        Height = 13
+        Caption = 'Ms3 recorder file size limit [kB, 1000kB -> 250kS]:'
+      end
+      object chbAlwaysOnTop: TCheckBox
+        Left = 16
+        Top = 116
+        Width = 325
+        Height = 17
+        Caption = 'Window always on top'
+        TabOrder = 0
+        OnClick = chbAlwaysOnTopClick
+      end
+      object cmbMaxUiLogLines: TComboBox
+        Left = 301
+        Top = 19
+        Width = 108
+        Height = 21
+        Style = csDropDownList
+        ItemHeight = 13
+        TabOrder = 1
+        OnChange = cmbMaxUiLogLinesChange
+        Items.Strings = (
+          '100'
+          '200'
+          '500'
+          '1000'
+          '2000'
+          '5000'
+          '10000')
+      end
+      object edMs3RecorderFileSizeLimit: TEdit
+        Left = 301
+        Top = 83
+        Width = 108
+        Height = 21
+        Hint = '5120...4096000'
+        TabOrder = 2
+        Text = '51200'
+      end
+      object chbLogToFile: TCheckBox
+        Left = 16
+        Top = 46
+        Width = 325
+        Height = 17
+        Caption = 'Write log to file'
+        TabOrder = 3
+        OnClick = chbAlwaysOnTopClick
+      end
+    end
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Top = 299
+    Width = 601
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitWidth = 536
+    object pnlBottomRight: TPanel
+      Left = 415
+      Top = 0
+      Width = 186
+      Height = 41
+      Align = alRight
+      BevelOuter = bvNone
+      TabOrder = 0
+      ExplicitLeft = 350
+      object btnApply: TButton
+        Left = 22
+        Top = 8
+        Width = 75
+        Height = 25
+        Caption = 'Apply'
+        TabOrder = 0
+        OnClick = btnApplyClick
+      end
+      object btnCancel: TButton
+        Left = 103
+        Top = 8
+        Width = 75
+        Height = 25
+        Caption = 'Cancel'
+        TabOrder = 1
+        OnClick = btnCancelClick
+      end
+    end
+  end
+  object imglDllList: TImageList
+    Left = 8
+    Top = 296
+    Bitmap = {
+      494C010101000400040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      0000000000003600000028000000400000001000000001002000000000000010
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000424D3E000000000000003E000000
+      2800000040000000100000000100010000000000800000000000000000000000
+      000000000000000000000000FFFFFF00FEFF000000000000FE7F000000000000
+      FEBF000000000000FEDF000000000000FEEF000000000000FEF7000000000000
+      00FB0000000000007FFD0000000000007FFD00000000000000FB000000000000
+      FEF7000000000000FEEF000000000000FEDF000000000000FEBF000000000000
+      FE7F000000000000FEFF00000000000000000000000000000000000000000000
+      000000000000}
+  end
+  object ColorDialog: TColorDialog
+    Left = 40
+    Top = 296
+  end
+end

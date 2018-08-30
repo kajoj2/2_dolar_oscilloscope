@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012-03-31 14:20:41.947.bdsproj,d:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\SAM7S_2ch_dma.bdsproj=D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\miniscope_v2c.bdsproj</Transaction>
+    <Transaction>2017-01-19 21:20:30.115.cpp,D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Unit1.cpp=D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Specification.cpp</Transaction>
+    <Transaction>2017-01-19 21:20:30.122.h,D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Unit1.h=D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Specification.h</Transaction>
+    <Transaction>2017-01-19 21:24:01.458.cpp,D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Specification.cpp=D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Capabilities.cpp</Transaction>
+    <Transaction>2017-01-19 21:24:01.458.h,D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Specification.h=D:\Dokumenty\_PROJEKTY\miniscope_v4\stm32scope\Capabilities.h</Transaction>
+  </Transactions>
+</BorlandProject>

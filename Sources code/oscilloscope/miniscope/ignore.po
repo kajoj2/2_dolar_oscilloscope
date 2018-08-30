@@ -1,0 +1,144 @@
+#  Doesn't have any letters
+#. frmMain..Menu..File1..N2..Caption
+#: Main.dfm:548
+#. frmMain..Menu..File1..N1..Caption
+#: Main.dfm:557
+#. frmMain..Menu..File1..N3..Caption
+#: Main.dfm:567
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. frmStatistics..lblValMin..Caption
+#: StatisticsUnit.dfm:54
+#. frmStatistics..lblValMax..Caption
+#: StatisticsUnit.dfm:61
+#. frmStatistics..lblValPp..Caption
+#: StatisticsUnit.dfm:68
+#. frmStatistics..lblValAvg..Caption
+#: StatisticsUnit.dfm:75
+#. frmStatistics..lblFreqVal..Caption
+#: StatisticsUnit.dfm:89
+#. frmStatistics..lblValRms..Caption
+#: StatisticsUnit.dfm:103
+msgid "-----"
+msgstr ""
+
+#  Doesn't have any letters
+#. frmJsonViewer..lblTriggerTypeVal..Caption
+#: JsonViewerUnit.dfm:83
+#. frmJsonViewer..lblCouplingTypeVal..Caption
+#: JsonViewerUnit.dfm:92
+#. frmJsonViewer..lblTimestampVal..Caption
+#: JsonViewerUnit.dfm:101
+#. frmJsonViewer..lblSamplesCountVal..Caption
+#: JsonViewerUnit.dfm:117
+#. frmMs3FileRepair..lblErrorTypeVal..Caption
+#: Ms3FileRepairUnit.dfm:39
+#. frmMs3Viewer..lblSamplingVal..Caption
+#: Ms3ViewerUnit.dfm:39
+#. frmMs3Viewer..lblTriggerTypeVal..Caption
+#: Ms3ViewerUnit.dfm:69
+#. frmMs3Viewer..lblCouplingTypeVal..Caption
+#: Ms3ViewerUnit.dfm:78
+#. frmMs3Viewer..lblTimestampVal..Caption
+#: Ms3ViewerUnit.dfm:87
+#. frmMs3Viewer..lblSamplesCountVal..Caption
+#: Ms3ViewerUnit.dfm:103
+#. frmMs3Viewer..lblFrameVal..Caption
+#: Ms3ViewerUnit.dfm:119
+msgid "???"
+msgstr ""
+
+#  Doesn't have any letters
+#. frmMs3Viewer..btnPrevFrame..Caption
+#: Ms3ViewerUnit.dfm:160
+msgid "<--"
+msgstr ""
+
+#  Doesn't have any letters
+#. frmMs3Viewer..btnNextFrame..Caption
+#: Ms3ViewerUnit.dfm:170
+msgid "-->"
+msgstr ""
+
+#  Doesn't have any letters
+#. frmMain..pnlRight..pnlOscControl..pnlOscControlBottom..lblTriggerLevelVal..Caption
+#: Main.dfm:295
+msgid "0%"
+msgstr ""
+
+#  Doesn't have any letters
+#. frmSettings..PageControl..tsOther..edMs3RecorderFileSizeLimit..Hint
+#: SettingsUnit.dfm:476
+msgid "5120...4096000"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. frmMain..StatusBar..Font.Name
+#: Main.dfm:60
+msgid "Courier New"
+msgstr ""
+
+#  Doesn't look like text
+#. frmMs3Viewer..Caption
+#: Ms3ViewerUnit.dfm:6
+msgid "frmMs3Viewer"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. AboutBox..Font.Name
+#: AboutUnit.dfm:12
+#. AboutBox..Panel1..ProductName..Font.Name
+#: AboutUnit.dfm:191
+#. AboutBox..Panel1..lblInfo2..Font.Name
+#: AboutUnit.dfm:246
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. frmCalibrateSensitivity..Font.Name
+#: CalibrateSensitivityUnit.dfm:11
+#. frmFilterSelector..Font.Name
+#: FilterSelector.dfm:12
+#. frmJsonViewer..Font.Name
+#: JsonViewerUnit.dfm:12
+#. frmLog..Font.Name
+#: LogUnit.dfm:13
+#. frmMain..Font.Name
+#: Main.dfm:13
+#. frmMain..pnlRight..pnlOscControl..tabOscControlTop..Font.Name
+#: Main.dfm:464
+#. frmMs3FileRepair..Font.Name
+#: Ms3FileRepairUnit.dfm:13
+#. frmMs3FrameList..Font.Name
+#: Ms3FrameListUnit.dfm:11
+#. frmMs3Viewer..Font.Name
+#: Ms3ViewerUnit.dfm:13
+#. frmNotification..Font.Name
+#: NotificationUnit.dfm:12
+#. frmPlotToolbar..Font.Name
+#: PlotToolbarUnit.dfm:11
+#. frmSettings..Font.Name
+#: SettingsUnit.dfm:13
+#. frmStatistics..Font.Name
+#: StatisticsUnit.dfm:13
+#. frmWait..Font.Name
+#: WaitUnit.dfm:11
+#. frmWait..Label1..Font.Name
+#: WaitUnit.dfm:40
+msgid "Tahoma"
+msgstr ""
+
+#  Doesn't look like text
+#. frmMain..CoolBar..ToolBarMouse..ToolButton1..Caption
+#: Main.dfm:181
+msgid "ToolButton1"
+msgstr ""
+
+#  Doesn't look like text
+#. frmMain..CoolBar..ToolBarMouse..ToolButton2..Caption
+#: Main.dfm:199
+msgid "ToolButton2"
+msgstr ""
+

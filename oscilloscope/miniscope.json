@@ -1,0 +1,61 @@
+{
+   "FFT" : {
+      "SamplesLimit" : 4096,
+      "WindowName" : "Hanning"
+   },
+   "Graph" : {
+      "DisplayRefreshFreq" : 20,
+      "PlotLineWidth" : 1.0,
+      "SmoothTraceMoving" : true,
+      "ToolboxTransparency" : 255,
+      "TraceAntialiasing" : false
+   },
+   "GraphColors" : {
+      "Traces" : []
+   },
+   "GraphVisibility" : {
+      "Cursor" : true,
+      "CursorValues" : true,
+      "GndMarker" : true,
+      "GridLabelsX" : true,
+      "GridLabelsY" : false,
+      "GridX" : true,
+      "GridY" : true,
+      "RangeValues" : true,
+      "TriggerPosMarker" : true,
+      "TriggerValMarker" : true
+   },
+   "Logging" : {
+      "LogToFile" : true,
+      "MaxUiLogLines" : 1000
+   },
+   "MRUjson" : [],
+   "MRUms3" : [],
+   "Measurements" : {
+      "PosX" : 40,
+      "PosY" : 40,
+      "Visible" : false
+   },
+   "Ms3Recording" : {
+      "SizeLimit" : 102400
+   },
+   "PlotPosition" : [ 3.31293, 0.0, 0.0144565 ],
+   "Zoom" : {
+      "KeepRound" : false,
+      "ZoomX" : 0.184082,
+      "ZoomY" : [ 51.20, 0.700160, 2.80064 ]
+   },
+   "frmMain" : {
+      "AlwaysOnTop" : false,
+      "Height" : 550,
+      "InputDeviceDllName" : "miniscope_v2c.dll",
+      "Language" : "en",
+      "PlotDataExportDir" : "",
+      "PlotPictureExportDir" : "D:\\Dokumenty\\_PROJEKTY\\miniscope_v4",
+      "PosX" : 522,
+      "PosY" : 317,
+      "Width" : 906,
+      "WindowMaximized" : false
+   },
+   "hotkeyConf" : []
+}

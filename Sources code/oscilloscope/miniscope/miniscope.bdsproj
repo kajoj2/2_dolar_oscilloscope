@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppVCLApplication</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{5FB64FAD-0651-4B1E-8BD0-39A13540C8C2}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<Source>
+			<Source Name="MainSource">miniscope.cpp</Source>
+		</Source>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="lastconfig" value="Debug_Build"/>
+        <property category="build.node" name="libraries" value="vcl.lib rtl.lib"/>
+        <property category="build.node" name="name" value="miniscope.exe"/>
+        <property category="build.node" name="packages" value="vclx;vcl;rtl;dbrtl;vcldb;dbxcds;dbexpress;xmlrtl;vclie;inet;inetdbbde;inetdbxpress;dsnap;soaprtl;bdertl;vcldbx"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib"/>
+        <property category="build.node" name="use_packages" value="0"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.H.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.He.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Hs.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Hu.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vG.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.Gpd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.Gpr.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.2" value="..\libpng\debug_build"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.3" value="..\zlib\debug_build"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.4" value="..\jsoncpp\debug_build"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.6.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.H.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.H=.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.He.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.Hs.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.Hu.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.-w-.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.2" value="..\libpng\release_build"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.3" value="..\zlib\release_build"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.4" value="..\jsoncpp\release_build"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.w.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.4.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.A.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AK.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AU.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.10" value="display"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.11" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.12" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.13" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="."/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="filter"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="..\jsoncpp\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.8" value="datasink"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.9" value="device"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgx.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V0.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vms.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.disablewarns.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.p.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pr.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.rd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vG.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wamb.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wamp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wasm.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wbbf.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wcln.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wcod.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wdef.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wdig.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wnak.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wnod.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wpia.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wpin.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wprc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wsig.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstl.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstu.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstv.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wucp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wuse.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A1.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A2.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$A4.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Z2.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.$Z4.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GD.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GP.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.GS.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.5" value="filter"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.8" value="device"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.9" value="display"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.J.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JP.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JPH.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.JPHN.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.5" value="filter"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.8" value="device"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.9" value="display"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.5" value="filter"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.8" value="device"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.9" value="display"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.11" value=".."/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.12" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.13" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.5" value="filter"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.8" value="device"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.9" value="display"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="filter"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.8" value="device"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.9" value="display"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.11" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.12" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.13" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="filter"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="device"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.9" value="display"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="components\HotkeyCfgPanel"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.10" value="opengl_test"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.2" value="FFT\windows"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.3" value="FFT"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.4" value="filter\filters"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.5" value="filter"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.6" value="jsoncpp\src\lib_json"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.7" value="datasink"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.8" value="device"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.9" value="display"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0w32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="memmgr.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="container.SelectedWarnings.containerenabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.a.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.ml.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.mu.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.o.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.oi.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.op.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.r.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.w0.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.w2.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.zi.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="option.zn.enabled" value="0"/>
+          <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="doc\changelog.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="doc\roadmap.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="doc\doxygen.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="components\HotkeyCfgPanel\HotkeyCfgPanel.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HotkeyCfgPanel" FORMNAME="" DESIGNCLASS="" ADDITIONAL="components\HotkeyCfgPanel\HotkeyCfgPanel.h"/>
+        <FILE FILENAME="display\ValueStringFormatter.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ValueStringFormatter" FORMNAME="" DESIGNCLASS="" ADDITIONAL="display\ValueStringFormatter.h"/>
+        <FILE FILENAME="display\DisplayOpenGL.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DisplayOpenGL" FORMNAME="" DESIGNCLASS="" ADDITIONAL="display\DisplayOpenGL.h"/>
+        <FILE FILENAME="device\MiniscopeDevice.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MiniscopeDevice" FORMNAME="" DESIGNCLASS="" ADDITIONAL="device\MiniscopeDevice.h"/>
+        <FILE FILENAME="device\MiniscopeDeviceInterface.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MiniscopeDeviceInterface" FORMNAME="" DESIGNCLASS="" ADDITIONAL="device\MiniscopeDeviceInterface.h"/>
+        <FILE FILENAME="filter\DataFilter.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="datasink\DataSink.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataSink" FORMNAME="" DESIGNCLASS="" ADDITIONAL="datasink\DataSink.h"/>
+        <FILE FILENAME="datasink\Measurements.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Measurements" FORMNAME="" DESIGNCLASS="" ADDITIONAL="datasink\Measurements.h"/>
+        <FILE FILENAME="FFT\FFTWindowDescription.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FFT\FFTWindow.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FFT\FFTWindowFactory.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFTWindowFactory" FORMNAME="" DESIGNCLASS="" ADDITIONAL="FFT\FFTWindowFactory.h"/>
+        <FILE FILENAME="FFT\FFT.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFT" FORMNAME="" DESIGNCLASS="" ADDITIONAL="FFT\FFT.h"/>
+        <FILE FILENAME="Main.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Main" FORMNAME="frmMain" DESIGNCLASS="" ADDITIONAL="Main.h"/>
+        <FILE FILENAME="miniscope.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="miniscope" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Log.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Log" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Log.h"/>
+        <FILE FILENAME="AboutUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AboutUnit" FORMNAME="AboutBox" DESIGNCLASS="" ADDITIONAL="AboutUnit.h"/>
+        <FILE FILENAME="cursors.rc" CONTAINERID="RCCompiler" LOCALCOMMAND="" UNITNAME="cursors.rc" FORMNAME="cursors.res" DESIGNCLASS=""/>
+        <FILE FILENAME="miniscope.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="miniscope.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="SettingsUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SettingsUnit" FORMNAME="frmSettings" DESIGNCLASS="" ADDITIONAL="SettingsUnit.h"/>
+        <FILE FILENAME="Settings.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Settings" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Settings.h"/>
+        <FILE FILENAME="LogUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LogUnit" FORMNAME="frmLog" DESIGNCLASS="" ADDITIONAL="LogUnit.h"/>
+        <FILE FILENAME="MeasurementsUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MeasurementsUnit" FORMNAME="frmMeasurements" DESIGNCLASS="" ADDITIONAL="MeasurementsUnit.h"/>
+        <FILE FILENAME="CalibrateSensitivityUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CalibrateSensitivityUnit" FORMNAME="frmCalibrateSensitivity" DESIGNCLASS="" ADDITIONAL="CalibrateSensitivityUnit.h"/>
+        <FILE FILENAME="PlotToolbarUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="PlotToolbarUnit" FORMNAME="frmPlotToolbar" DESIGNCLASS="" ADDITIONAL="PlotToolbarUnit.h"/>
+        <FILE FILENAME="Recorder.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Recorder" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Recorder.h"/>
+        <FILE FILENAME="WaitUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WaitUnit" FORMNAME="frmWait" DESIGNCLASS="" ADDITIONAL="WaitUnit.h"/>
+        <FILE FILENAME="TimeCounter.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="device\MiniscopeDeviceCapabilities.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="filter\DataFilterFactory.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataFilterFactory" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="filter\DataFilterDescription.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="filter\filters\DataFilterAbs.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataFilterAbs" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="filter\DataFilterChain.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataFilterChain" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FilterSelector.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FilterSelector" FORMNAME="frmFilterSelector" DESIGNCLASS="" ADDITIONAL="FilterSelector.h"/>
+        <FILE FILENAME="filter\filters\DataFilterInvert.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataFilterInvert" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="filter\filters\DataFilterSquare.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataFilterSquare" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="CompileTimeChecker.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="CommonUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CommonUnit" FORMNAME="" DESIGNCLASS="" ADDITIONAL="CommonUnit.h"/>
+        <FILE FILENAME="Ms3Recorder.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Ms3Recorder" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Ms3Recorder.h"/>
+        <FILE FILENAME="DataFrame.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="JsonViewerUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="JsonViewerUnit" FORMNAME="frmJsonViewer" DESIGNCLASS="" ADDITIONAL="JsonViewerUnit.h"/>
+        <FILE FILENAME="Ms3ViewerUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Ms3ViewerUnit" FORMNAME="frmMs3Viewer" DESIGNCLASS="" ADDITIONAL="Ms3ViewerUnit.h"/>
+        <FILE FILENAME="Ms3FrameListUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Ms3FrameListUnit" FORMNAME="frmMs3FrameList" DESIGNCLASS="" ADDITIONAL="Ms3FrameListUnit.h"/>
+        <FILE FILENAME="NotificationUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="NotificationUnit" FORMNAME="frmNotification" DESIGNCLASS="" ADDITIONAL="NotificationUnit.h"/>
+        <FILE FILENAME="Ms3FileRepairUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Ms3FileRepairUnit" FORMNAME="frmMs3FileRepair" DESIGNCLASS="" ADDITIONAL="Ms3FileRepairUnit.h"/>
+        <FILE FILENAME="Utilities.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Utilities" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Utilities.h"/>
+        <FILE FILENAME="FFT\windows\FFTWindowRectangular.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFTWindowRectangular" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FFT\windows\FFTWindowHanning.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFTWindowHanning" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FFT\windows\FFTWindowFlatTop.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFTWindowFlatTop" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FFT\windows\FFTWindowHamming.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFTWindowHamming" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FFT\windows\FFTWindowBlackmanHarris.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FFTWindowBlackmanHarris" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="device\Data.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Data" FORMNAME="" DESIGNCLASS="" ADDITIONAL="device\Data.h"/>
+        <FILE FILENAME="display\Display.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Display" FORMNAME="" DESIGNCLASS="" ADDITIONAL="display\Display.h"/>
+        <FILE FILENAME="display\Hsv.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Hsv" FORMNAME="" DESIGNCLASS="" ADDITIONAL="display\Hsv.h"/>
+        <FILE FILENAME="ControlUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ControlUnit" FORMNAME="frmControl" DESIGNCLASS="" ADDITIONAL="ControlUnit.h"/>
+        <FILE FILENAME="Mode.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Mode" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Mode.h"/>
+        <FILE FILENAME="Observer.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Observable.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="StatisticsUnit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="StatisticsUnit" FORMNAME="frmStatistics" DESIGNCLASS="" ADDITIONAL="StatisticsUnit.h"/>
+        <FILE FILENAME="Base64.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Base64" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Base64.h"/>
+        <FILE FILENAME="Rounding.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Rounding" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Rounding.h"/>
+        <FILE FILENAME="ImageExport.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ImageExport" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ImageExport.h"/>
+        <FILE FILENAME="FormHotkeys.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FormHotkeys" FORMNAME="frmHotkeys" DESIGNCLASS="" ADDITIONAL="FormHotkeys.h"/>
+        <FILE FILENAME="HotKeyConf.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Hotkeys.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Hotkeys" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Hotkeys.h"/>
+        <FILE FILENAME="KeybKeys.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="KeybKeys" FORMNAME="" DESIGNCLASS="" ADDITIONAL="KeybKeys.h"/>
+        <FILE FILENAME="Action.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Action" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Action.h"/>
+        <FILE FILENAME="OS.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="OS" FORMNAME="" DESIGNCLASS="" ADDITIONAL="OS.h"/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">4</VersionInfo>
+          <VersionInfo Name="MinorVer">1</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1033</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName">Tomasz Ostrowski</VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription">miniscope v4 - oscilloscope GUI</VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">4.1.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName">miniscope v4</VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">4</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\dclib100.bpl">Borland InterBase Express Components</Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\dclIntraweb_80_100.bpl">Intraweb 8.0 Design Package for Borland Development Studio 2006</Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\dclindy100.bpl">Internet Direct Version 9 (Indy) Property and Component Editors</Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\bcbofficexp100.bpl">Borland C++Builder Office XP Servers Package</Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\dclbcbsmp100.bpl">Borland Sample Controls Design Time Package</Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\bcbie100.bpl">Borland C++Builder Internet Explorer 5 Components Package</Excluded_Packages>
+          <Excluded_Packages Name="d:\progs\bds2007\Bin\dcltee100.bpl">TeeChart Components</Excluded_Packages>
+        </Excluded_Packages>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<buildevents>
+      <buildevent file="miniscope.bdsproj">
+        <precompile mode="0" cancancel="-1" capture="-1" showconsole="0">build-tools\touch.exe "$(PROJECTDIR)\AboutUnit.cpp"
+</precompile>
+      </buildevent>
+    </buildevents>
+		<Folders/>
+	</CPlusPlusBuilder.Personality>
+</BorlandProject>
